@@ -11,9 +11,12 @@
         <Entry Placeholder="LastName" 
                x:Name="txtLastName"
                Focused="txtLastName_Focused"/>
-        <Entry Placeholder="Email" />
-        <Entry Placeholder="Phone" />
-        <Entry Placeholder="Address" />
+        <Entry Placeholder="Email" 
+               x:Name="txtEmail"/>
+        <Entry Placeholder="Phone" 
+               x:Name="txtPhone"/>
+        <Entry Placeholder="Address" 
+               x:Name="txtAddress"/>
         <Button Text="Save" 
                 x:Name="btnSave"
                 Clicked="btnSave_Clicked"/>

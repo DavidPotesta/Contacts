@@ -15,7 +15,7 @@ namespace Contacts.Classes
         //[Column("SomethingElse")]   Override column name to NOT be property name
         public string LastName { get; set; }
         public string Email { get; set; }
-        [MaxLength(10)]
+        [MaxLength(15)]
         public string Phone { get; set; }
         public string Address { get; set; }
 
